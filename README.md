@@ -1,0 +1,1 @@
+Creating a full stack e-commerce store with Mongo DB, Express.js, React and Node.js (MERN) stack.
