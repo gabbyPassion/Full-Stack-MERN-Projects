@@ -7,13 +7,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color: rgb(30, 7, 184);
-  padding: 1rem;
+.site-container {
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 header a {
   color: white;
   font-weight: bold;
   text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-info {
+  padding: 1rem;
 }
